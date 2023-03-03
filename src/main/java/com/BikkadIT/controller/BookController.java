@@ -3,13 +3,13 @@ package com.BikkadIT.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.BikkadIT.model.Book;
 
-@Controller
+@RestController
 public class BookController {
 
 	@GetMapping("/books")
